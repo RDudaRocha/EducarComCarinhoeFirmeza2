@@ -7,7 +7,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #fff;
   background-color: #D4A373;
 }
 
@@ -38,6 +38,10 @@ h6 {
   font-family: "Nunito", sans-serif;
 }
 
+.accordion-button collapsed{
+  color: #FAEDCD !important;
+}
+
 .classbtn{
   align-items: center;
     display: flex;
@@ -52,8 +56,8 @@ h6 {
     padding: 15px 40px;
     border-radius: 4px;
     transition: 0.5s;
-    color: #fff;
-    background: #D4A373;
+    color: #D4A373;
+    background: #fff;
     box-shadow: 0px 5px 30px rgba(250, 237, 205);
 }
 
@@ -853,6 +857,7 @@ section {
   text-align: center;
   transition: 0.3s;
   border-radius: 5px;
+  background-color: #FAEDCD;
 }
 
 .services .service-box .icon {
@@ -887,60 +892,81 @@ section {
 }
 
 .services .service-box.blue {
-  border-bottom: 3px solid #E9EDC9;
+  border-bottom: 3px solid #FAEDCD;
 }
 
 .services .service-box.blue .icon {
-  color: #E9EDC9;
-  background: #CCD5AE;
+  color: #FAEDCD;
+  background: #D4A373;
 }
 
 .services .service-box.blue .read-more {
-  color: #CCD5AE;
+  color: #D4A373;
 }
 
 .services .service-box.blue:hover {
-  background: #CCD5AE;
+  background: #D4A373;
+}
+
+.hover-effect:hover {
+  color: #FAEDCD !important;
+}
+
+.hover-effect {color: #D4A373 !important;}
+
+.service-box.blue:hover h3,
+.service-box.blue:hover p {
+    color: #FAEDCD !important;
 }
 
 .services .service-box.orange {
-  border-bottom: 3px solid #E9EDC9;
+  border-bottom: 3px solid #FAEDCD;
 }
 
 .services .service-box.orange .icon {
-  color: #E9EDC9;
-  background: #CCD5AE;
+  color: #FAEDCD;
+  background: #D4A373;
 }
 
 .services .service-box.orange .read-more {
-  color: #CCD5AE;
+  color: #D4A373;
 }
 
 .services .service-box.orange:hover {
-  background: #CCD5AE;
+  background: #D4A373;
+}
+
+.service-box.orange:hover h3,
+.service-box.orange:hover p {
+    color: #FAEDCD !important;
 }
 
 .services .service-box.green {
-  border-bottom: 3px solid #E9EDC9;
+  border-bottom: 3px solid #FAEDCD;
 }
 
 .services .service-box.green .icon {
-  color: #E9EDC9;
-  background: #CCD5AE;
+  color: #FAEDCD;
+  background: #D4A373;
 }
 
 .services .service-box.green .read-more {
-  color: #CCD5AE;
+  color: #D4A373;
 }
 
 .services .service-box.green:hover {
-  background: #CCD5AE;
+  background: #D4A373;
+}
+
+.service-box.green:hover h3,
+.service-box.green:hover p {
+    color: #FAEDCD !important;
 }
 
 .services .service-box:hover h3,
 .services .service-box:hover p,
 .services .service-box:hover .read-more {
-  color: #444444;
+  color: #D4A373;
 }
 
 .services .service-box:hover .icon {
@@ -1270,11 +1296,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #D4A373;
+  border: 1px solid #FAEDCD;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #D4A373;
+  background-color: #FAEDCD;
 }
 
 .portfolio-details .portfolio-info {
@@ -1374,11 +1400,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #D4A373;
+  border: 1px solid #FAEDCD;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #D4A373;
+  background-color: #FAEDCD;
 }
 
 .testimonials .swiper-slide {
@@ -1522,11 +1548,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #D4A373;
+  border: 1px solid #FAEDCD;
 }
 
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #D4A373;
+  background-color: #FAEDCD;
 }
 
 /*--------------------------------------------------------------
